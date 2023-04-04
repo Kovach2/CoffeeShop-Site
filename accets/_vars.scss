@@ -1,0 +1,27 @@
+@import "./base/fonts";
+
+// Container & Breakpoints
+
+$breakpoint1400: 1339.98 + px;
+$breakpoint992: 991.98 + px;
+$breakpoint768: 767.98 + px;
+$breakpoint480: 479.98 + px;
+
+// Fonts
+$fontMain : "Oswald-Semibold", sans-serif;
+$fontSecond: "Oswald-Meduim", sans-serif;
+$fontThird: "Montserrat-Medium", sans-serif;
+$fontFours: "Montserrat-Regular", sans-serif;
+
+// Colors
+
+$color1: #101010;
+$color2: #04524C;
+$color3: #BA8065;
+$color4: #006342;
+$color5: #04322E;
+$color6: #FCBE8C;
+$color7: #FEFEFE;
+$color8: #FDC89D;
+$background: #FFDEC0;
+

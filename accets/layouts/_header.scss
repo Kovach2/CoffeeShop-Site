@@ -1,0 +1,31 @@
+.header {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	z-index: 10;
+	transform: translateX(-50%);
+	width: 100%;
+	max-width: 877px;
+	padding-top: 21px;
+	
+	// .header__nav
+
+	&__nav {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		// .header__nav--link
+		&--link {
+			font-size: 22px;
+			text-transform: uppercase;
+			color: $color1;
+			&:hover{
+				color: #4E4E4E;
+			}
+		}
+	}
+
+	
+
+	
+}

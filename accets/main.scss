@@ -1,0 +1,54 @@
+@import "vars";
+@import "base/fonts";
+@import "base/reset";
+@import "layouts/header";
+@import "layouts/intro";
+@import "layouts/about";
+@import "layouts/shop";
+@import "layouts/footer";
+@import "utils/mixins";
+
+body{
+    position: relative;
+    box-sizing: border-box;
+    background-color: $background;
+    font-family: $fontMain;
+}
+
+.button {
+    display: block;
+    font-family: $fontSecond;
+    padding: 18px 0;
+    font-size: 30px;
+    background: inherit;
+    line-height: 113.7%;
+    color: $color7;
+    text-transform: uppercase;
+    border-radius: 20px;
+    background: $color4;
+    border: none;
+    &.intro{
+            width: 100%;
+            max-width: 240px;
+            margin-bottom: 14px;
+            margin-left: 2px;
+        &.view{
+            background: none;
+            border: 2px solid $color4;
+            color: $color4;
+        }
+    }
+    &.shop{
+        width: 100%;
+        max-width: 360px;
+        &.contact{
+            background: $color6;
+
+        }
+    }
+    &.footer{
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto 371px;
+    }
+}
